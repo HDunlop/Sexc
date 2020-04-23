@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Task App</title>
+    <script src="node_modules\push.js\bin\push.js"></script>
+    <link rel='fav icon' href='images/favicon.png' type='image/png'/ >
+    <script src="https://kit.fontawesome.com/b07bc5218d.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet"type="text/css" href="css/main.css">
+  </head>
+  <body id="area">
+    <div id="container" >
+      <div id="topBar"><input name="List_Name" id="ListName" type="text" placeholder="Todo List"><button  id="Play_Button" class="btn"><i class="fas fa-play"></i></button><input name="Timer_Number" id="timer" type="number" placeholder="Enter time"></div>
+      <ul id="TaskUL">
+        <li><input class="_Task" name="Task" id="Task1" type="text" placeholder="Editable Task"><span><i class="fa fa-trash"></i></span></li>
+        <li><input class="_Task" name="Task" id="Task2" type="text" placeholder="Editable Task"><span><i class="fa fa-trash"></i></span></li>
+        <li><input class="_Task" name="Task" id="Task3" type="text" placeholder="Editable Task"><span><i class="fa fa-trash"></i></span></li>
+        <li><input class="_Task" name="Task" id="Task4" type="text" placeholder="Editable Task"><span><i class="fa fa-trash"></i></span></li>
+      </ul>
+      <input name="Add_Task" id="AddTask" type="text" placeholder="+">
+    </div>
+    <script type="text/javascript" src="js/mainR.js"></script>
+    <script type="text/javascript" src="js/notifications.js"></script>
+
+
+  </body>
+</html>
